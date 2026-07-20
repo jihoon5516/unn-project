@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REGISTRY = "ec2-51-20-122-193.eu-north-1.compute.amazonaws.com"
-        PROJECT  = "orix-web-project"
+        PROJECT  = "orix-citest"
         IMAGE    = "web01"
         TAG      = "${env.BUILD_NUMBER}"
     }
